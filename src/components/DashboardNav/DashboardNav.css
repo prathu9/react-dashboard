@@ -1,0 +1,27 @@
+.dashboard-nav{
+    bottom:0;
+    padding: 8px;
+    background-color: #212121;
+    border-radius: 16px;
+}
+
+.dashboard-nav ul{
+    display:flex;
+    list-style-type: none;
+}
+
+.dashboard-nav ul a{
+    display: inline-block;
+    width: 68.41px;
+    height: 60px;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    font-family: "Inter", serif;
+    font-size: 12px;
+}
+
+.dashboard-nav ul a.active{
+    background-color: #181818;
+}
