@@ -1,0 +1,27 @@
+.wallet-container{
+    padding: 20px 16px;
+}
+
+.wallet-balance{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.transaction-title{
+    margin: 16px 0;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.no-transaction{
+    min-height: 402px;
+    padding: 40px 0 16px 0;
+   
+}
+
+.no-transaction span{
+    opacity: 0.5;
+    font-size: 16px;
+}

@@ -1,8 +1,8 @@
 .dashboard-nav{
-    bottom:0;
     padding: 8px;
     background-color: #212121;
     border-radius: 16px;
+    z-index: 100;
 }
 
 .dashboard-nav ul{

@@ -5,8 +5,10 @@ import "./Dashboard.css";
 const Dashboard = () => {
     return(
         <div className="dashboard">
-            <h1>Dashboard</h1>
-            <Outlet/>
+            <div className="dashboard-content">
+                <Outlet/>
+            </div>
+    
             <div className="dashboard-nav-wrapper">
                 <DashboardNav/>
             </div>
