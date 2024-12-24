@@ -22,7 +22,16 @@ root.render(
             <Route path="missions" element={<Missions/>}/>
             <Route path="more" element={<More/>}/>
           </Route>  
-      </Routes>     
+      </Routes>    
+      <Routes>
+          <Route path="/react-dashboard" element={<App/>}>
+            <Route index element={<Home/>}/>
+            <Route path="wallet" element={<Wallet/>} />
+            <Route path="friends" element={<Friends/>}/>
+            <Route path="missions" element={<Missions/>}/>
+            <Route path="more" element={<More/>}/>
+          </Route>  
+      </Routes>   
     </BrowserRouter>
   </React.StrictMode>
 );
