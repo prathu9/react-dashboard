@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-dashboard/static/css/main.20bf42f2.css",
+    "main.css": "/react-dashboard/static/css/main.65d5d741.css",
     "main.js": "/react-dashboard/static/js/main.9e6eda26.js",
     "static/js/488.b25818be.chunk.js": "/react-dashboard/static/js/488.b25818be.chunk.js",
     "static/media/TONIX.svg": "/react-dashboard/static/media/TONIX.fa2305a0f9838a8f20f0017c1ca022bf.svg",
@@ -20,12 +20,12 @@
     "index.html": "/react-dashboard/index.html",
     "static/media/TON.svg": "/react-dashboard/static/media/TON.23f10e959018c6c4e67e35d10059cacd.svg",
     "static/media/boost.svg": "/react-dashboard/static/media/boost.d6ea43a346bca40e8a84dc7ef6908d02.svg",
-    "main.20bf42f2.css.map": "/react-dashboard/static/css/main.20bf42f2.css.map",
+    "main.65d5d741.css.map": "/react-dashboard/static/css/main.65d5d741.css.map",
     "main.9e6eda26.js.map": "/react-dashboard/static/js/main.9e6eda26.js.map",
     "488.b25818be.chunk.js.map": "/react-dashboard/static/js/488.b25818be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20bf42f2.css",
+    "static/css/main.65d5d741.css",
     "static/js/main.9e6eda26.js"
   ]
 }
