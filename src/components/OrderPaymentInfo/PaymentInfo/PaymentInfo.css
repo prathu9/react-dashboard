@@ -1,0 +1,99 @@
+.payment-info{
+    margin: 16px 0 0;
+    padding: 16px;
+    background-color: #212121;
+}
+
+.payment-info h2{
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.payment-info h4{
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 20px;
+    opacity: 0.5;
+}
+
+.payment-info .connect-btn{
+    width: 162.64px;
+    height: 40px;
+    display: inline-block;
+    margin: 10px auto 12.5px;
+    padding: 0 10px;
+    background-color: #0098E9;
+    border-radius: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.payment-info .connect-btn span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-info .connect-btn svg{
+    flex: 28px 0 0;
+}   
+
+.text-separator{
+    border-bottom: 1px solid rgba(255 255 255/10%);
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.text-separator span{
+    padding: 0 8px;
+    font-size: 16px;
+    background: #212121;
+}
+
+.payment-info .instruction{
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.5;
+}
+
+.payment-info .qr-code{
+    margin: 10px 0 20px 0;
+    border: 4px solid white;
+}
+
+.payment-info .amount{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 800;   
+}
+
+.payment-info .unit{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.payment-info .address-title{
+    margin: 9px 0 6px 0;
+    font-size: 14px;
+    font-weight: 20px;
+    color: rgba(255 255 255/50%);
+}
+
+.payment-info .address{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.payment-info .address p{
+    flex: 95% 0 0;
+}
+
+.payment-info .address svg{
+    flex: 20px 0 0;
+    height: 20px;
+}

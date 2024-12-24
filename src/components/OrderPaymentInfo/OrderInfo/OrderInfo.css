@@ -1,0 +1,39 @@
+.order-info-list{
+    padding: 16px;
+    background-color: #212121;
+}
+
+.order-info-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-info-list li h2{
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.order-info-list li:nth-child(1){
+    margin: 0 0 20px 0;
+
+}
+
+.order-info-list .cancel-btn{
+    padding: 10px 12px;
+    flex: 76.47px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: #181818;
+}
+
+.order-info-list li:not(:first-child){
+   margin: 5px 0;
+}
+
+.order-info-list li span{
+    font-size: 14px;
+    line-height: 20px;
+}

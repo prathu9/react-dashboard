@@ -1,9 +1,22 @@
+import { useState } from "react";
 import { ReactComponent as TONSymbol } from "../../assets/icons/ton-symbol.svg";
 import CustomButton from "../CustomButton/CustomButton";
 import InputWrapper from "../InputWrapper/InputWrapper";
 import "./WalletDeposit.css";
+import Portal from "../Portal/Portal";
+import OrderPaymentInfo from "../OrderPaymentInfo/OrderPaymentInfo";
 
 const WalletDeposit = ({toggleDeposit}) => {
+  const [showOrderPaymentInfo, setShowOrderPaymentInfo] = useState(false);
+
+  const openOrderPaymemtInfo = () => {
+    setShowOrderPaymentInfo(true);
+  }
+
+  const closeOrderPaymemtInfo = () => {
+    setShowOrderPaymentInfo(false);
+  }
+
   return (
     <div className="wallet-deposit">
       <h2 className="title">Mining Power Boost</h2>
@@ -47,8 +60,15 @@ const WalletDeposit = ({toggleDeposit}) => {
         </span>
       </div>
 
-      <CustomButton>Add</CustomButton>
+      <CustomButton onClick={openOrderPaymemtInfo}>Add</CustomButton>
       <CustomButton onClick={toggleDeposit} className="back-btn">Back</CustomButton>
+
+      {
+        showOrderPaymentInfo &&
+        <Portal>
+          <OrderPaymentInfo closeOrderPaymemtInfo={closeOrderPaymemtInfo}/>
+        </Portal>
+      }
     </div>
   );
 };
