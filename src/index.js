@@ -26,10 +26,10 @@ root.render(
       <Routes>
           <Route path="/react-dashboard" element={<App/>}>
             <Route index element={<Home/>}/>
-            <Route path="wallet" element={<Wallet/>} />
-            <Route path="friends" element={<Friends/>}/>
-            <Route path="missions" element={<Missions/>}/>
-            <Route path="more" element={<More/>}/>
+            <Route path="/react-dashboard/wallet" element={<Wallet/>} />
+            <Route path="/react-dashboard/friends" element={<Friends/>}/>
+            <Route path="/react-dashboard/missions" element={<Missions/>}/>
+            <Route path="/react-dashboard/more" element={<More/>}/>
           </Route>  
       </Routes>   
     </BrowserRouter>
