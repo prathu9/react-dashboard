@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Friends from './pages/Friends/Friends';
 import Missions from './pages/Missions/Missions';
@@ -13,7 +13,8 @@ import Wallet from './pages/Wallet/Wallet';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter> */}
+    <HashRouter>
       <Routes>
           <Route path="/" element={<App/>}>
             <Route index element={<Home/>}/>
@@ -32,7 +33,8 @@ root.render(
             <Route path="/react-dashboard/more" element={<More/>}/>
           </Route>  
       </Routes>   
-    </BrowserRouter>
+      </HashRouter>
+    {/* </BrowserRouter> */}
   </React.StrictMode>
 );
 

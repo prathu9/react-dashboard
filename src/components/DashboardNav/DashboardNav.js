@@ -20,7 +20,7 @@ const DashboardNav = () => {
     <div className="dashboard-nav">
       <ul>
         <li className="dashboard-nav-item">
-          <NavLink to="/react-dashboard/wallet" className={({isActive}) => isActive? "active":""}>
+          <NavLink to="/wallet" className={({isActive}) => isActive? "active":""}>
             {({ isActive }) => (
               <>
                 {isActive ? <WalletActiveIcon /> : <WalletIcon />}
@@ -30,7 +30,7 @@ const DashboardNav = () => {
           </NavLink>
         </li>
         <li className="dashboard-nav-item">
-          <NavLink to="/react-dashboard/friends" className={({isActive}) => isActive? "active":""}>
+          <NavLink to="/friends" className={({isActive}) => isActive? "active":""}>
             {({ isActive }) => (
               <>
                 {isActive ? <FriendActiveIcon /> : <FriendIcon />}
@@ -40,7 +40,7 @@ const DashboardNav = () => {
           </NavLink>
         </li>
         <li className="dashboard-nav-item">
-          <NavLink to="/react-dashboard" className={({isActive}) => isActive? "active":""}>
+          <NavLink to="/" className={({isActive}) => isActive? "active":""}>
             {({ isActive }) => (
               <>
                 {isActive ? <HomeActiveIcon /> : <HomeIcon />}
@@ -50,7 +50,7 @@ const DashboardNav = () => {
           </NavLink>
         </li>
         <li className="dashboard-nav-item">
-          <NavLink to="/react-dashboard/missions" className={({isActive}) => isActive? "active":""}>
+          <NavLink to="/missions" className={({isActive}) => isActive? "active":""}>
             {({ isActive }) => (
               <>
                 { isActive ? <MissionActiveIcon /> : <MissionIcon />}
@@ -60,7 +60,7 @@ const DashboardNav = () => {
           </NavLink>
         </li>
         <li className="dashboard-nav-item">
-          <NavLink to="/react-dashboard/more" className={({isActive}) => isActive? "active":""}>
+          <NavLink to="/more" className={({isActive}) => isActive? "active":""}>
             {({ isActive }) => (
               <>
                 {isActive ? <MoreActiveIcon /> : <MoreIcon />}
