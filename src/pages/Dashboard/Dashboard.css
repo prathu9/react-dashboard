@@ -1,19 +1,30 @@
-.dashboard{
-    position: relative;
-    height: 100%;
+.dashboard {
+  position: relative;
+  height: 100%;
 }
 
-.dashboard-content{
-    position: relative;
-    height: 100%;
-    overflow: auto;
-    z-index: 5;
+.dashboard-content {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  z-index: 5;
 }
 
-.dashboard-nav-wrapper{
-    padding: 16px;
-    position: absolute;
-    left:0;
-    bottom: 0;
-    z-index: 10;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.dashboard-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.dashboard-content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.dashboard-nav-wrapper {
+  padding: 16px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
 }
