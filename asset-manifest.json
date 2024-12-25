@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-dashboard/static/css/main.70bb7122.css",
-    "main.js": "/react-dashboard/static/js/main.d97ddd5b.js",
+    "main.css": "/react-dashboard/static/css/main.9c2fdafe.css",
+    "main.js": "/react-dashboard/static/js/main.d06101be.js",
     "static/js/488.b25818be.chunk.js": "/react-dashboard/static/js/488.b25818be.chunk.js",
     "static/media/TONIX.svg": "/react-dashboard/static/media/TONIX.fa2305a0f9838a8f20f0017c1ca022bf.svg",
     "static/media/magnify-glass.svg": "/react-dashboard/static/media/magnify-glass.641070c42eaaead43e48744e03de49e2.svg",
@@ -23,12 +23,12 @@
     "static/media/copy.svg": "/react-dashboard/static/media/copy.da55d5b144053aa45b6cb84d86505261.svg",
     "static/media/TON.svg": "/react-dashboard/static/media/TON.23f10e959018c6c4e67e35d10059cacd.svg",
     "static/media/boost.svg": "/react-dashboard/static/media/boost.d6ea43a346bca40e8a84dc7ef6908d02.svg",
-    "main.70bb7122.css.map": "/react-dashboard/static/css/main.70bb7122.css.map",
-    "main.d97ddd5b.js.map": "/react-dashboard/static/js/main.d97ddd5b.js.map",
+    "main.9c2fdafe.css.map": "/react-dashboard/static/css/main.9c2fdafe.css.map",
+    "main.d06101be.js.map": "/react-dashboard/static/js/main.d06101be.js.map",
     "488.b25818be.chunk.js.map": "/react-dashboard/static/js/488.b25818be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70bb7122.css",
-    "static/js/main.d97ddd5b.js"
+    "static/css/main.9c2fdafe.css",
+    "static/js/main.d06101be.js"
   ]
 }
