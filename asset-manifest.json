@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/react-dashboard/static/css/main.cd50f184.css",
-    "main.js": "/react-dashboard/static/js/main.0a037850.js",
+    "main.css": "/react-dashboard/static/css/main.70bb7122.css",
+    "main.js": "/react-dashboard/static/js/main.d97ddd5b.js",
     "static/js/488.b25818be.chunk.js": "/react-dashboard/static/js/488.b25818be.chunk.js",
     "static/media/TONIX.svg": "/react-dashboard/static/media/TONIX.fa2305a0f9838a8f20f0017c1ca022bf.svg",
     "static/media/magnify-glass.svg": "/react-dashboard/static/media/magnify-glass.641070c42eaaead43e48744e03de49e2.svg",
     "static/media/home-active.svg": "/react-dashboard/static/media/home-active.d23a7a7ca0aa03f169490ff0effbb16b.svg",
     "static/media/home.svg": "/react-dashboard/static/media/home.174a78f01444df8676dd52bf7d3eba69.svg",
+    "static/media/invite-friend.svg": "/react-dashboard/static/media/invite-friend.e6dc329f71aff1ab6c490d0b94bc8425.svg",
     "static/media/logo.svg": "/react-dashboard/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/more.svg": "/react-dashboard/static/media/more.d62505e531438bf165d34b3644fe121d.svg",
     "static/media/more-active.svg": "/react-dashboard/static/media/more-active.10033a87d5666aae072c6acb8ad4ba35.svg",
@@ -16,17 +17,18 @@
     "static/media/mission.svg": "/react-dashboard/static/media/mission.e27bae50b95a9e86e3c55c2b468b4ef8.svg",
     "static/media/wallet-active.svg": "/react-dashboard/static/media/wallet-active.8a80b578dcff60d68adeb695b9f3abf5.svg",
     "static/media/wallet.svg": "/react-dashboard/static/media/wallet.1cdf987c8c85aad9b62ba1c20699d31d.svg",
+    "static/media/list.svg": "/react-dashboard/static/media/list.4f37e6b2f396244c0a56d1e1b9c1efb8.svg",
     "static/media/ton-symbol.svg": "/react-dashboard/static/media/ton-symbol.9d41522365cadb11b9445f555d30ff2e.svg",
     "index.html": "/react-dashboard/index.html",
-    "static/media/copy.svg": "/react-dashboard/static/media/copy.d2403a1f4086c4e56556773e8ab3c5ee.svg",
+    "static/media/copy.svg": "/react-dashboard/static/media/copy.da55d5b144053aa45b6cb84d86505261.svg",
     "static/media/TON.svg": "/react-dashboard/static/media/TON.23f10e959018c6c4e67e35d10059cacd.svg",
     "static/media/boost.svg": "/react-dashboard/static/media/boost.d6ea43a346bca40e8a84dc7ef6908d02.svg",
-    "main.cd50f184.css.map": "/react-dashboard/static/css/main.cd50f184.css.map",
-    "main.0a037850.js.map": "/react-dashboard/static/js/main.0a037850.js.map",
+    "main.70bb7122.css.map": "/react-dashboard/static/css/main.70bb7122.css.map",
+    "main.d97ddd5b.js.map": "/react-dashboard/static/js/main.d97ddd5b.js.map",
     "488.b25818be.chunk.js.map": "/react-dashboard/static/js/488.b25818be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd50f184.css",
-    "static/js/main.0a037850.js"
+    "static/css/main.70bb7122.css",
+    "static/js/main.d97ddd5b.js"
   ]
 }
