@@ -1,0 +1,58 @@
+.mission-item{
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    background-color: #212121;
+    border-radius: 12px;
+}
+
+.mission-item-image{
+    width: 36px;
+    height: 36px;   
+}
+
+.mission-item-details{
+    flex: 2 0 0;
+    text-align: left;
+}
+
+.mission-item-details .title{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.mission-item-details .tonix-amount{
+    margin: 5px 0 0;
+    text-align: left;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background: linear-gradient(to bottom, #FBCC54, #FFF4D6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 600;
+}
+
+.mission-item-details .tonix-amount svg{
+    width: 18px;
+    height: 18px;
+}
+
+.mission-item-details .tonix-amount .gigahash-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.mission-item-details .tonix-amount .gigahash-wrapper img{
+    width: 24px;
+    height: 24px;
+}
+
+.mission-item .start-btn{
+    flex: 16% 0 0;
+    padding: 2px;
+    height: 28px;
+}

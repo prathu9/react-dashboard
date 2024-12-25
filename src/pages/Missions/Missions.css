@@ -1,0 +1,50 @@
+.missions-section{
+    padding: 16px;
+}
+
+.missions-section .title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.missions-section .sub-title{
+    margin: 8px 0 16px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.missions-nav{
+    padding: 4px;
+    display: flex;
+    background-color: #212121;
+    border-radius: 8px;
+}
+
+.missions-nav li{
+    display: flex;
+    flex: 24% 0 0;
+    aspect-ratio: 2.4;
+}
+
+.missions-nav li a{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 8px;
+}
+
+.missions-nav li a.active{
+    background-color: #181818;
+}
+
+.missions-nav li a span{
+    opacity: 0.65;
+}

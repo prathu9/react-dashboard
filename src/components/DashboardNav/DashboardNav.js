@@ -50,7 +50,7 @@ const DashboardNav = () => {
           </NavLink>
         </li>
         <li className="dashboard-nav-item">
-          <NavLink to="/missions" className={({isActive}) => isActive? "active":""}>
+          <NavLink to="missions" className={({isActive}) => isActive? "active":""}>
             {({ isActive }) => (
               <>
                 { isActive ? <MissionActiveIcon /> : <MissionIcon />}

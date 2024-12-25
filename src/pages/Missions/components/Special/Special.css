@@ -1,0 +1,10 @@
+.special-section{
+    margin: 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.spacer{
+    height: 92px;
+}

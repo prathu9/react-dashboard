@@ -9,10 +9,10 @@ import Friends from './pages/Friends/Friends';
 import Missions from './pages/Missions/Missions';
 import More from './pages/More/More';
 import Wallet from './pages/Wallet/Wallet';
-import Promo from './components/Promo/Promo';
-import Special from './components/Special/Special';
-import Referrer from './components/Referrer/Referrer';
-import Contest from './components/Contest/Contest';
+import Promo from './pages/Missions/components/Promo/Promo';
+import Special from './pages/Missions/components/Special/Special';
+import Referrer from './pages/Missions/components/Referrer/Referrer';
+import Contest from './pages/Missions/components/Contest/Contest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,8 +24,8 @@ root.render(
             <Route index element={<Home/>}/>
             <Route path="wallet" element={<Wallet/>} />
             <Route path="friends" element={<Friends/>}/>
-            <Route path="missions" element={<Missions/>}>
-              <Route path="promo" element={<Promo/>}/>
+            <Route path="missions/*" element={<Missions/>}>
+              <Route index path="promo" element={<Promo/>}/>
               <Route path="special" element={<Special/>}/>
               <Route path="ref" element={<Referrer/>}/>
               <Route path="contest" element={<Contest/>}/>
@@ -36,8 +36,8 @@ root.render(
             <Route index element={<Home/>}/>
             <Route path="/react-dashboard/wallet" element={<Wallet/>} />
             <Route path="/react-dashboard/friends" element={<Friends/>}/>
-            <Route path="/react-dashboard/missions" element={<Missions/>}>
-              <Route path="promo" element={<Promo/>}/>
+            <Route path="/react-dashboard/missions/*" element={<Missions/>}>
+              <Route index path="promo" element={<Promo/>}/>
               <Route path="special" element={<Special/>}/>
               <Route path="ref" element={<Referrer/>}/>
               <Route path="contest" element={<Contest/>}/>

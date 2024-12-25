@@ -1,7 +1,7 @@
 const Contest = () => {
     return(
         <div>
-
+            Contest
         </div>
     )
 }
