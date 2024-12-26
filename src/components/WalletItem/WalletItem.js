@@ -8,8 +8,8 @@ const WalletItem = ({icon, amount, unit, handleClick}) => {
                 {icon}
             </div>
             <div className="balance-info">
-                <span class="label">Balance</span>
-                <span class="amount">{amount} {unit}</span>
+                <span className="label">Balance</span>
+                <span className="amount">{amount} {unit}</span>
             </div>
             <div className="wallet-icon-wrapper">
                 <WalletIcon/>

@@ -47,7 +47,7 @@ const WalletWithdrawal = ({ toggleWithdrawal }) => {
           <span>100 TONIX</span>
         </div>
       </div>
-      <h2 class="title">Enter your personal TON address</h2>
+      <h2 className="title">Enter your personal TON address</h2>
       <h3 className="subTitle">
         This amount will be sent to the TON compatible wallet address
       </h3>
