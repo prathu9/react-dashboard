@@ -1,0 +1,98 @@
+.contest-section{
+    margin: 16px 0 0;
+
+}
+
+.contest-section .title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.contest-social-icons{
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contest-social-icons *{
+    flex: 48px 0 0;
+    aspect-ratio: 1/1;
+}
+
+.separator{
+    margin: 0 auto;
+    width: 73%;
+    height: 1px;
+    background-color: #8774E1;
+    opacity: 0.6;
+}
+
+.contest-section .reward-details{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contest-section .reward-details .reward-prize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #FBCC54, #FFF4D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contest-section .reward-details .reward-prize svg{
+    width: 28px;
+    height: 28px;
+}
+
+.contest-section .add-content-btn{
+    width: 55%;
+    margin: 16px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.contest-rules{
+    padding: 8px 32px;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #212121;
+    border-radius: 16px;
+}
+
+.rules-title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+}
+
+.contest-rules .rule{
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.6;
+    text-align: left;
+    list-style: decimal;
+}
+
+.contest-rules .rule p{
+    padding: 14px 38px;
+    background-color: #181818;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 1;
+}
+
+.spacer{
+    height: 92px;
+}
