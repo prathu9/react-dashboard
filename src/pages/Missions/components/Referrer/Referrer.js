@@ -55,12 +55,13 @@ const Referrer = () => {
                 <span>0</span>
             </div>
             {
-                referrerData.map(({id,imageUrl, title, tonixAmount, gigahash}) => (
+                referrerData.map(({id,imageUrl, title, tonixAmount, gigahash, progress}) => (
                     <MissionItem
                         key={id}
                         imageUrl={imageUrl}
                         title={title}
                         tonixAmount={tonixAmount}
+                        progress={progress}
                     />
                 ))
             }

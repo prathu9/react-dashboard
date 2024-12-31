@@ -24,7 +24,7 @@ root.render(
             <Route index element={<Home/>}/>
             <Route path="wallet" element={<Wallet/>} />
             <Route path="friends" element={<Friends/>}/>
-            <Route path="missions/*" element={<Missions/>}>
+            <Route path="missions" element={<Missions/>}>
               <Route index path="promo" element={<Promo/>}/>
               <Route path="special" element={<Special/>}/>
               <Route path="ref" element={<Referrer/>}/>
@@ -36,7 +36,7 @@ root.render(
             <Route index element={<Home/>}/>
             <Route path="/react-dashboard/wallet" element={<Wallet/>} />
             <Route path="/react-dashboard/friends" element={<Friends/>}/>
-            <Route path="/react-dashboard/missions/*" element={<Missions/>}>
+            <Route path="/react-dashboard/missions" element={<Missions/>}>
               <Route index path="promo" element={<Promo/>}/>
               <Route path="special" element={<Special/>}/>
               <Route path="ref" element={<Referrer/>}/>

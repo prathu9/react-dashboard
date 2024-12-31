@@ -3,7 +3,7 @@ import CustomButton from "../../../../components/CustomButton/CustomButton";
 import Bolt from "../../../../assets/bolt.gif.png";
 import "./MissionItem.css";
 
-const MissionItem = ({ imageUrl, title, tonixAmount, gigahash }) => {
+const MissionItem = ({ imageUrl, title, tonixAmount, gigahash, progress }) => {
     return (
       <div className="mission-item">
         <div className="mission-item-image">

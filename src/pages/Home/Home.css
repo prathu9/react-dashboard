@@ -6,3 +6,35 @@
     display: flex;
     gap: 8px;
 }
+
+.home-main{
+    margin: 32px 0 0 ;
+}
+
+.home-image-wrapper{
+    position: relative;
+}
+
+.home-image-wrapper .ton-home-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-main .ton-balance{
+    margin: 20px 0 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.home-main .hash-value{
+    margin: 0 0 16px 0;
+    display: flex;
+    gap:8px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}

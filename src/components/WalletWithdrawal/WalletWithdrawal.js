@@ -4,11 +4,26 @@ import { ReactComponent as TONIXIcon } from "../../assets/icons/TONIX.svg";
 import CustomButton from "../CustomButton/CustomButton";
 import InputWrapper from "../InputWrapper/InputWrapper";
 import "./WalletWithdrawal.css";
+import { CustomOption, CustomSelect } from "../CustomSelect/CustomSelect";
+
+const selectData = [{
+  name: "ton",
+  icon: <TONIcon/>,
+  value: "ton",
+  label: "TON"
+},
+{
+  name: "tonix",
+  icon: <TONIXIcon/>,
+  value: "tonix",
+  label:"TONIX"
+}]
 
 const WalletWithdrawal = ({ toggleWithdrawal }) => {
   const [withdrawalInput, setWithdrawalInput] = useState({
     tonAddress: "",
     amount: "",
+    token: ""
   });
 
   const [isInputVerified, setIsInputVerified] = useState(false);
@@ -52,6 +67,19 @@ const WalletWithdrawal = ({ toggleWithdrawal }) => {
         This amount will be sent to the TON compatible wallet address
       </h3>
       <p className="info">Minimum send amount is 0.35 TON</p>
+      <CustomSelect name="token" placeholder="hi" defaultValue="ton" handleInputChange={onInputChange}>
+        {
+          selectData.map(({icon, value, label}) => (
+            <CustomOption value={value}>
+              <div className="select-option-item">
+               <span className="option-icon">{icon}</span>
+                <span className="option-value">{label}</span>
+              </div>
+              
+            </CustomOption>
+          ))
+        }
+      </CustomSelect>
       <InputWrapper
         name="tonAddress"
         type="text"

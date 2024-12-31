@@ -1,0 +1,61 @@
+.select-wrapper{
+    position: relative;
+}
+
+.select-btn{
+    /* padding: 12px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    background-color: #212121;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.selected-option-wrapper{
+    max-width: 80%;
+    flex: 80% 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.placeholder-wrapper{
+    padding: 12px;
+}
+
+.select-btn .chevron-icon{
+    margin: 0 12px 0 0;
+}
+
+.select-options-list{
+    width: 100%;
+    max-height: 220px;
+    position:  absolute;
+    background-color: #212121;
+    z-index: 10;
+    overflow: auto;
+}
+
+.select-option{
+    width: 100%;
+    height: fit-content;
+}
+
+.select-input{
+    display: none;
+}
+
+.select-input ~ label{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.select-input:checked ~ label{
+    background-color: aqua;
+}
+

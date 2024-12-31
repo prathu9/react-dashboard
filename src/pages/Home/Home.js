@@ -3,6 +3,9 @@ import { ReactComponent as TONIcon } from "../../assets/icons/TON.svg";
 import { ReactComponent as TONIXIcon } from "../../assets/icons/TONIX.svg";
 import { ReactComponent as ClaimIcon } from "../../assets/icons/claim.svg";
 import { ReactComponent as BoostIcon } from "../../assets/icons/boost.svg";
+import {ReactComponent as HomeSpinnerIcon} from "../../assets/icons/home-spinner.svg";
+import {ReactComponent as InformationIcon} from "../../assets/icons/information.svg";
+import {ReactComponent as TONHomeIcon} from "../../assets/icons/ton-home.svg";
 import CustomButton from "../../components/CustomButton/CustomButton";
 import WalletItem from "../../components/WalletItem/WalletItem";
 import "./Home.css";
@@ -40,6 +43,22 @@ const Home = () => {
             unit={unit}
           />
         ))}
+      </div>
+      <div className="home-main">
+        <div className="home-image-wrapper">
+        <HomeSpinnerIcon/>
+        <TONHomeIcon className="ton-home-icon"/>
+        </div>
+       
+        <div className="ton-balance">
+          0.0282382423 TON
+        </div>
+        <div className="hash-value">
+          <span>
+            <InformationIcon/>
+          </span>
+          <span>2 GH/s ⚡</span>
+        </div>
       </div>
       <div className="home-action-btn-wrapper">
         <CustomButton onClick={toggleClaim} leftIcon={<ClaimIcon />}>
