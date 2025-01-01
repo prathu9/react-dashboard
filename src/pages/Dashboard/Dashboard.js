@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import DashboardNav from "../../components/DashboardNav/DashboardNav";
+import DashboardNav from "./DashboardNav/DashboardNav";
 import "./Dashboard.css";
 
 const Dashboard = () => {

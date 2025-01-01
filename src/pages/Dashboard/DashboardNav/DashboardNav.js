@@ -1,18 +1,18 @@
 import { NavLink } from "react-router-dom";
-import { ReactComponent as WalletIcon } from "../../assets/icons/wallet.svg?react";
-import { ReactComponent as WalletActiveIcon } from "../../assets/icons/wallet-active.svg";
+import { ReactComponent as WalletIcon } from "../../../assets/icons/wallet.svg?react";
+import { ReactComponent as WalletActiveIcon } from "../../../assets/icons/wallet-active.svg";
 import "./DashboardNav.css";
-import { ReactComponent as FriendIcon } from "../../assets/icons/friends.svg";
-import { ReactComponent as FriendActiveIcon } from "../../assets/icons/friends-active.svg";
+import { ReactComponent as FriendIcon } from "../../../assets/icons/friends.svg";
+import { ReactComponent as FriendActiveIcon } from "../../../assets/icons/friends-active.svg";
 import "./DashboardNav.css";
-import { ReactComponent as HomeIcon } from "../../assets/icons/home.svg";
-import { ReactComponent as HomeActiveIcon } from "../../assets/icons/home-active.svg";
+import { ReactComponent as HomeIcon } from "../../../assets/icons/home.svg";
+import { ReactComponent as HomeActiveIcon } from "../../../assets/icons/home-active.svg";
 import "./DashboardNav.css";
-import { ReactComponent as MissionIcon } from "../../assets/icons/mission.svg";
-import { ReactComponent as MissionActiveIcon } from "../../assets/icons/mission-active.svg";
+import { ReactComponent as MissionIcon } from "../../../assets/icons/mission.svg";
+import { ReactComponent as MissionActiveIcon } from "../../../assets/icons/mission-active.svg";
 import "./DashboardNav.css";
-import { ReactComponent as MoreIcon } from "../../assets/icons/more.svg";
-import { ReactComponent as MoreActiveIcon } from "../../assets/icons/more-active.svg";
+import { ReactComponent as MoreIcon } from "../../../assets/icons/more.svg";
+import { ReactComponent as MoreActiveIcon } from "../../../assets/icons/more-active.svg";
 import "./DashboardNav.css";
 
 const DashboardNav = () => {
