@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/react-dashboard/static/css/main.4ed68c9d.css",
-    "main.js": "/react-dashboard/static/js/main.6742ecc4.js",
+    "main.css": "/react-dashboard/static/css/main.8dc675ec.css",
+    "main.js": "/react-dashboard/static/js/main.89ad7e18.js",
     "static/js/488.b25818be.chunk.js": "/react-dashboard/static/js/488.b25818be.chunk.js",
     "static/media/TONIX.svg": "/react-dashboard/static/media/TONIX.fa2305a0f9838a8f20f0017c1ca022bf.svg",
+    "static/media/home-spinner.svg": "/react-dashboard/static/media/home-spinner.46003184c63eaecd84bc00291671c433.svg",
+    "static/media/magnify-glass-h.svg": "/react-dashboard/static/media/magnify-glass-h.80b311891569c3f90ce4eced2e914b01.svg",
     "static/media/magnify-glass.svg": "/react-dashboard/static/media/magnify-glass.641070c42eaaead43e48744e03de49e2.svg",
     "static/media/home-active.svg": "/react-dashboard/static/media/home-active.d23a7a7ca0aa03f169490ff0effbb16b.svg",
     "static/media/home.svg": "/react-dashboard/static/media/home.174a78f01444df8676dd52bf7d3eba69.svg",
@@ -25,21 +27,23 @@
     "static/media/ton-symbol.svg": "/react-dashboard/static/media/ton-symbol.9d41522365cadb11b9445f555d30ff2e.svg",
     "static/media/legal.svg": "/react-dashboard/static/media/legal.a477be12b1029cd07faef37c10cc752c.svg",
     "static/media/friends-invite.svg": "/react-dashboard/static/media/friends-invite.86c86d043c621542472db9d7ee74c36a.svg",
+    "static/media/information.svg": "/react-dashboard/static/media/information.81b018f0876296c1c50d937e06f3c3b3.svg",
     "static/media/trophy.svg": "/react-dashboard/static/media/trophy.6e66c0b21bf3586b6d39f62f84745159.svg",
     "static/media/hash.svg": "/react-dashboard/static/media/hash.5298f200cf61ecf232c3c269328658cc.svg",
     "index.html": "/react-dashboard/index.html",
     "static/media/copy.svg": "/react-dashboard/static/media/copy.da55d5b144053aa45b6cb84d86505261.svg",
     "static/media/youtube.svg": "/react-dashboard/static/media/youtube.a0e579bb0d766c6c5d0f8ed9213c37cd.svg",
     "static/media/TON.svg": "/react-dashboard/static/media/TON.23f10e959018c6c4e67e35d10059cacd.svg",
+    "static/media/ton-home.svg": "/react-dashboard/static/media/ton-home.644ff0c463b4e83df2fdf050c74f20e1.svg",
     "static/media/add.svg": "/react-dashboard/static/media/add.2503d48991c160a2cdaacc1ae1e2793f.svg",
     "static/media/contact-support.svg": "/react-dashboard/static/media/contact-support.e0e8552e4eac7cdc7173fcddb45c78da.svg",
     "static/media/boost.svg": "/react-dashboard/static/media/boost.d6ea43a346bca40e8a84dc7ef6908d02.svg",
-    "main.4ed68c9d.css.map": "/react-dashboard/static/css/main.4ed68c9d.css.map",
-    "main.6742ecc4.js.map": "/react-dashboard/static/js/main.6742ecc4.js.map",
+    "main.8dc675ec.css.map": "/react-dashboard/static/css/main.8dc675ec.css.map",
+    "main.89ad7e18.js.map": "/react-dashboard/static/js/main.89ad7e18.js.map",
     "488.b25818be.chunk.js.map": "/react-dashboard/static/js/488.b25818be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ed68c9d.css",
-    "static/js/main.6742ecc4.js"
+    "static/css/main.8dc675ec.css",
+    "static/js/main.89ad7e18.js"
   ]
 }
