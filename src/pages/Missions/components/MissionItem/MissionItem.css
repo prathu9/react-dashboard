@@ -1,11 +1,14 @@
 .mission-item{
     width: 100%;
     padding: 8px;
+    background-color: #212121;
+    border-radius: 12px;
+}
+
+.mission-item-wrapper{
     display: flex;
     align-items: center;
     gap:8px;
-    background-color: #212121;
-    border-radius: 12px;
 }
 
 .mission-item-image{
@@ -55,4 +58,18 @@
     flex: 16% 0 0;
     padding: 2px;
     height: 28px;
+}
+
+.mission-item .progress-bar-wrapper{
+    margin: 14px 0 0;
+    height: 8px;
+    background-color: #181818;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.mission-item .progress-bar{
+    height: 100%;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #2d83ec, #1ac9ff);
 }

@@ -7,35 +7,35 @@ const referrerData = [
         imageUrl: `${process.env.PUBLIC_URL}/duck.png`,
         title: "Invite 1 Friend",
         tonixAmount: "100",
-        progress: "1%"
+        progress: "1"
     },
     {
         id: 2,
         imageUrl: `${process.env.PUBLIC_URL}/duck.png`,
         title: "Invite 3 Friend",
         tonixAmount: "300",
-        progress: "1%"
+        progress: "1"
     },
     {
         id: 3,
         imageUrl: `${process.env.PUBLIC_URL}/duck.png`,
         title: "Invite 10 Friends",
         tonixAmount: "500",
-        progress: "1%"
+        progress: "1"
     },
     {
         id: 4,
         imageUrl: `${process.env.PUBLIC_URL}/duck.png`,
         title: "Invite 25 Friends",
         tonixAmount: "1000",
-        progress: "1%"
+        progress: "1"
     },
     {
         id: 5,
         imageUrl: `${process.env.PUBLIC_URL}/duck.png`,
         title: "Invite 50 Friends",
         tonixAmount: "2500",
-        progress: "1%"
+        progress: "1"
     },
     {
         id: 6,
@@ -43,7 +43,7 @@ const referrerData = [
         title: "Invite 100 Friend",
         tonixAmount: "3000",
         gigahash: "10 GH/s",
-        progress: "1%"
+        progress: "1"
     },
 ]
 
