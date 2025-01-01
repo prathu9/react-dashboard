@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, HashRouter, Navigate } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Friends from './pages/Friends/Friends';
 import Missions from './pages/Missions/Missions';
@@ -25,7 +25,8 @@ root.render(
             <Route path="wallet" element={<Wallet/>} />
             <Route path="friends" element={<Friends/>}/>
             <Route path="missions" element={<Missions/>}>
-              <Route index path="promo" element={<Promo/>}/>
+              <Route index element={<Navigate to="promo" replace />} />
+              <Route path="promo" element={<Promo/>}/>
               <Route path="special" element={<Special/>}/>
               <Route path="ref" element={<Referrer/>}/>
               <Route path="contest" element={<Contest/>}/>
@@ -37,7 +38,8 @@ root.render(
             <Route path="/react-dashboard/wallet" element={<Wallet/>} />
             <Route path="/react-dashboard/friends" element={<Friends/>}/>
             <Route path="/react-dashboard/missions" element={<Missions/>}>
-              <Route index path="promo" element={<Promo/>}/>
+              <Route index element={<Navigate to="promo" replace />} />
+              <Route path="promo" element={<Promo/>}/>
               <Route path="special" element={<Special/>}/>
               <Route path="ref" element={<Referrer/>}/>
               <Route path="contest" element={<Contest/>}/>
